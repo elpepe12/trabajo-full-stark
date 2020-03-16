@@ -59,6 +59,7 @@
     padding: 10px;
     display: block;
     background: rgb(0,0,0,0.2);
+    box-shadow: 10px 12px 11px rgb(16, 4, 0,0.6);
 }
 .prenda{
     display: block;
@@ -83,10 +84,25 @@
     color: salmon;
     background-color: red;
 }
-.img:hover{
-    image-rendering: red;
-}
+
 .img{
     width: 100%;
     border-radius: 29px;
+    
+}
+/* .img1{
+    position: absolute;
+    bottom:0;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    transform: translateY();
+} */
+.fin{
+    text-decoration: none;
+    display: block; 
+    float: left;
+    width: 94%;
+    border: solid;
+    text-align: center;
+    margin: 71px 44px;
 }
