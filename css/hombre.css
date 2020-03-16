@@ -1,0 +1,108 @@
+/*inicia menu */
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    line-height: 3rem;
+    position: relative;
+}
+.menu li ul{
+    position: absolute;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: rgba(0,0,0,0.5);
+    transition: .4s;
+}
+.menu li ul{
+     display: none; 
+}
+.menu li:hover > ul{
+    display: block;
+} 
+.menu  > ul{
+    background: rgba(211, 211, 211, 0.986);
+    display: table;
+    width: 100%;
+}
+.menu > ul > li{
+    float: left;
+}
+
+
+
+.menu li li {
+    background: rgba(211, 211, 211, 0.986);
+    width: 200px;
+}
+.menu > ul > li > ul{
+    top: 100%;
+}
+
+
+.menu ul ul ul{
+    left: 100%;
+    top: 0;
+}
+/*fin de menu*/
+
+/*inicia cajas*/
+.caja{
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+    background: rgb(0,0,0,0.2);
+    box-shadow: 10px 12px 11px rgb(16, 4, 0,0.6);
+}
+.prenda{
+    display: block;
+    padding: 0px;
+    margin: 12px 80px;
+    position: absolute;
+}
+.precio{
+    display: block;  
+    padding: 28px;
+    margin: 20px 86px;
+}
+.adquirir{
+    display: block;
+    padding: 5px;
+    margin: 6px 118px;
+    border: solid;
+    background: blue;
+    color: white;
+}
+.caja:hover{
+    color: salmon;
+    background-color: red;
+}
+
+.img{
+    width: 100%;
+    border-radius: 29px;
+    
+}
+/* .img1{
+    position: absolute;
+    bottom:0;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    transform: translateY();
+} */
+.fin{
+    text-decoration: none;
+    display: block; 
+    float: left;
+    width: 94%;
+    border: solid;
+    text-align: center;
+    margin: 71px 44px;
+}

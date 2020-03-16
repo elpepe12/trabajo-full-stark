@@ -51,3 +51,58 @@
     top: 0;
 }
 /*fin de menu*/
+
+/*inicia cajas*/
+.caja{
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+    background: rgb(0,0,0,0.2);
+    box-shadow: 10px 12px 11px rgb(16, 4, 0,0.6);
+}
+.prenda{
+    display: block;
+    padding: 0px;
+    margin: 12px 80px;
+    position: absolute;
+}
+.precio{
+    display: block;  
+    padding: 28px;
+    margin: 20px 86px;
+}
+.adquirir{
+    display: block;
+    padding: 5px;
+    margin: 6px 118px;
+    border: solid;
+    background: blue;
+    color: white;
+}
+.caja:hover{
+    color: salmon;
+    background-color: red;
+}
+
+.img{
+    width: 100%;
+    border-radius: 29px;
+    
+}
+/* .img1{
+    position: absolute;
+    bottom:0;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    transform: translateY();
+} */
+.fin{
+    text-decoration: none;
+    display: block; 
+    float: left;
+    width: 94%;
+    border: solid;
+    text-align: center;
+    margin: 71px 44px;
+}
