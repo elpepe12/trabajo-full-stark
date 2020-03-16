@@ -1,0 +1,53 @@
+/*inicia menu */
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    line-height: 3rem;
+    position: relative;
+}
+.menu li ul{
+    position: absolute;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: rgba(0,0,0,0.5);
+    transition: .4s;
+}
+.menu li ul{
+     display: none; 
+}
+.menu li:hover > ul{
+    display: block;
+} 
+.menu  > ul{
+    background: rgba(211, 211, 211, 0.986);
+    display: table;
+    width: 100%;
+}
+.menu > ul > li{
+    float: left;
+}
+
+
+
+.menu li li {
+    background: rgba(211, 211, 211, 0.986);
+    width: 200px;
+}
+.menu > ul > li > ul{
+    top: 100%;
+}
+
+
+.menu ul ul ul{
+    left: 100%;
+    top: 0;
+}
+/*fin de menu*/
