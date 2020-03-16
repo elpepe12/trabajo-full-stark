@@ -1,0 +1,35 @@
+
+.caja{
+    border: solid;
+    float: left;
+    width: 50%;
+    margin: 100px 95px;
+    padding: 20px;
+    background: rgb(0,0,0,0.2);
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#txtcorreo, #txtcontrasenna{
+    margin-bottom: 0px;
+    flex:1;
+    margin: 10px;
+    width: 90%;
+    background: rgb(0,0,0,0.1);
+    color: red;
+    display: flex;
+    flex-wrap: wrap; 
+}
+#btningresar{
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 10px 57px;
+    width: 39%;
+    background: rgb(0,0,0,0.1);
+    color: red;
+}
+/* @media scream and(min-width: 480px){
+    .caja{
+        width: 50%;
+    }
+} */
