@@ -33,25 +33,39 @@
     </header>
     <!-- finaliza menu -->
    <!--  inicia slaider -->
-   <section>
-   <ul class="slider">
-    <li id="slide1">En campusMVP</li>
-    <li id="slide2">encontrarás los mejores</li>
-    <li id="slide3">cursos online de programación</li>
-    <li id="slide4">y aprenderás de la mano</li>
-    <li id="slide5">de los mejores profesionales</li>
- </ul>
-
- <nav>
-    <ul class="menus">
-        <li><a href="#slide1">Diapositiva 1</a></li>
-        <li><a href="#slide2">Diapositiva 2</a></li>
-        <li><a href="#slide3">Diapositiva 3</a></li>
-        <li><a href="#slide4">Diapositiva 4</a></li>
-        <li><a href="#slide5">Diapositiva 5</a></li>
-</ul>
-</nav>
-</section>
+   <div id="page">
+    <section>
+        <input type="radio" name="slider-select-element" id="element1" checked="checked" />
+        <input type="radio" name="slider-select-element" id="element2" />
+        <input type="radio" name="slider-select-element" id="element3" />
+        
+        <div id="slider-container">
+            <div id="slider-box">
+                <div class="slider-element">
+                    <article class="element-red">
+                        
+                    </article>
+                </div>
+                <div class="slider-element">
+                    <article class="element-green">
+                        
+                    </article>
+                </div>
+                <div class="slider-element">
+                    <article class="element-blue">
+                        
+                    </article>                            
+                </div>
+            </div>
+        </div>
+        
+        <div id="slider-arrows">
+            <label for="element1"></label>
+            <label for="element2"></label>
+            <label for="element3"></label>
+        </div>
+    </section>            
+</div>
    <!-- fin slaider -->
 
 
