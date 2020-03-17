@@ -1,8 +1,10 @@
-/*inicia menu */
-.menu{
-    position: relative;
+*{
+    background-image: url(../imagenes/g.webp);
+    background-size: cover;
 }
+/*inicia menu */
 .menu ul{
+    
     list-style: none;
     padding: 0;
 }
@@ -11,13 +13,14 @@
     position: relative;
 }
 .menu li ul{
-    position: relative;
+    position: absolute;
 }
 .menu a{
-    color: rgb(0, 0, 0);
+    color: white;
     display: block;
     padding: 0 2.5em;
     text-decoration: none;
+    background: black;
 }
 .menu a:hover{
     background: rgba(0,0,0,0.5);
@@ -32,7 +35,9 @@
 .menu  > ul{
     background: rgba(211, 211, 211, 0.986);
     display: table;
-    width: 100%;
+    width: 30%;
+    margin: 7px 631px;
+    box-shadow: 10px 2px 64px 30px white;
 }
 .menu > ul > li{
     float: left;
@@ -110,6 +115,10 @@ input[name="slider-select-element"] {
     float: left;
     width: 33.333%;
 }
+.texto , h3{
+    text-align: center;
+    margin: 0px 563px;
+}
 
 #element1:checked ~ #slider-arrows label:nth-child(2),
 #element2:checked ~ #slider-arrows label:nth-child(3),
@@ -128,7 +137,8 @@ input[name="slider-select-element"] {
 #element1:checked ~ #slider-arrows label:nth-child(2):before,
 #element2:checked ~ #slider-arrows label:nth-child(3):before,
 #element3:checked ~ #slider-arrows label:nth-child(1):before {
-    color: black  ;
+    color: rgb(49, 175, 70)  ;
+    background: green;
     content: "\f054";
     font-family: FontAwesome;
     font-style: normal;
@@ -141,7 +151,8 @@ input[name="slider-select-element"] {
 #element1:checked ~ #slider-arrows label:nth-child(3):before,
 #element2:checked ~ #slider-arrows label:nth-child(1):before,
 #element3:checked ~ #slider-arrows label:nth-child(2):before {
-    color: black  ;
+    color: rgb(52, 199, 33)  ;
+    background: green;
     content: "\f053";
     font-family: FontAwesome;
     font-style: normal;
