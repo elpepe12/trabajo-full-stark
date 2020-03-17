@@ -1,14 +1,15 @@
 *{
-    background-image: url(../imagenes/g.webp);
+    background-image: url(../imagenes/gg.webp);
     background-size: cover;
 }
 /*inicia menu */
 .menu ul{
-    
+   
     list-style: none;
     padding: 0;
 }
 .menu li{
+    box-shadow: 10px 10px 9px 0px rgba(18, 224, 231, 0.7);
     line-height: 3rem;
     position: relative;
 }
@@ -20,10 +21,12 @@
     display: block;
     padding: 0 2.5em;
     text-decoration: none;
-    background: black;
+    background: rgb(82, 52, 52);
+   
 }
 .menu a:hover{
-    background: rgba(0,0,0,0.5);
+    color: rgb(255, 255, 255);
+    background: rgba(53, 52, 52, 0.397);
     transition: .4s;
 }
 .menu li ul{
@@ -33,11 +36,9 @@
     display: block;
 } 
 .menu  > ul{
-    background: rgba(211, 211, 211, 0.986);
+    background: rgba(211, 211, 211, -0.014);
     display: table;
-    width: 30%;
-    margin: 7px 631px;
-    box-shadow: 10px 2px 64px 30px white;
+    width: 100%;
 }
 .menu > ul > li{
     float: left;
@@ -116,6 +117,8 @@ input[name="slider-select-element"] {
     width: 33.333%;
 }
 .texto , h3{
+    color: white;
+    background: rgb(0,0,0,0.5);
     text-align: center;
     margin: 0px 563px;
 }
@@ -194,16 +197,17 @@ input[name="slider-select-element"] {
 /*  fin slaider */
 /*inicia cajas*/
 .contenedor{
+    background: rgb(0,0,0,0.1);
     float: left;
      margin: 180px 20px;
 } 
 .caja{
     float: left;
-    margin: 20px;
+    margin: 18px;
     padding: 10px;
     display: block;
-    background: rgb(0,0,0,0.2);
-    box-shadow: 10px 12px 11px rgb(16, 4, 0,0.6);
+    background: rgb(0,0,0,0.5);
+    box-shadow: 10px 4px 26px 5px rgba(18, 224, 231, 0.7);
 }
 .prenda{
     display: block;
@@ -215,6 +219,8 @@ input[name="slider-select-element"] {
     display: block;  
     padding: 28px;
     margin: 20px 86px;
+    background: rgb(0,0,0,0.1);
+    color: white;
 }
 .adquirir{
     display: block;
@@ -226,7 +232,12 @@ input[name="slider-select-element"] {
 }
 .caja:hover{
     color: salmon;
-    background-color: red;
+    background-color: rgba(194, 11, 11, 0.4);
+    width: 350px ;
+    box-shadow: 15px 15px 40px 10px white;
+    height: 428px;
+    border: solid 5px white;
+    border-radius: 40px;
 }
 
 .img{
