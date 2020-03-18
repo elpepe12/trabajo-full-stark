@@ -1,6 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/login.css">
 <title>Login</title>
 <script>
 function validar(){
@@ -18,22 +19,24 @@ function validar(){
 	}
 }
 </script>
-</head>
+</head> 
 <body>
-<form name="form" action="loquesea.php" method="post">
-<table >
+	<section class="c">
+<form  name="form" action="loquesea.php" method="post">
+<table class="ca">
 <tr>
-<td >
+<td class="caa">
 <h1>inisiar secion</h1>
-     Usuario :
-      <input name="txtusuario" type="text" id="txtusuario" style="text-align:left" size="20" maxlength="50"  >
-     Contraseña :
-      <input name="txtcontra" type="password" id="txtcontra" style="text-align:left" size="20" maxlength="20"  >
+    <p class="tex"> Usuario :</p>
+      <input class="te" name="txtusuario" type="text" id="txtusuario" style="text-align:left" size="20" maxlength="50"  >
+     <p class="tex"> Contraseña :</p>
+      <input class="te" name="txtcontra" type="password" id="txtcontra" style="text-align:left" size="20" maxlength="20"  >
      <!--  <input  type="button" name="btnenvio"value="Aceptar" onClick="validar()" > -->
      <a href="cliente.html">Aceptar</a>
 </td>
 </tr>
 </table>
 </form>
+</section>
 </body>
 </html>

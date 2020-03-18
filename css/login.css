@@ -1,35 +1,53 @@
+*{
+    background-image: url(../imagenes/us.jpg);
+    background-size: cover;
+    color: white;
+}
 
-.caja{
-    border: solid;
+
+
+
+.c{
+    margin: 0;
+    padding: 0;
+   /*  background: url(../img/us.jpg) no-repeat center top; */
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  
+  .ca{
+    width: 520px;
+    height: 530px;
+    background: #000000;
+    background: rgba(3, 31, 26, 0.6);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+
+ /*  .te{
     float: left;
-    width: 50%;
-    margin: 100px 95px;
-    padding: 20px;
-    background: rgb(0,0,0,0.2);
-    display: flex;
-    flex-wrap: wrap; 
-}
+    text-align: left;
+  } */
 
-#txtcorreo, #txtcontrasenna{
-    margin-bottom: 0px;
-    flex:1;
-    margin: 10px;
-    width: 90%;
-    background: rgb(0,0,0,0.1);
-    color: red;
-    display: flex;
-    flex-wrap: wrap; 
+  a {
+    border: solid white;
+    /* background: white; */
+    float: right;
+    margin: 37px 40px;
+    padding: 0px 59px;
+} 
+.tex{
+    background: rgb(0,0,0,-1.1);
 }
-#btningresar{
-    display: flex;
-    flex-wrap: wrap; 
-    margin: 10px 57px;
-    width: 39%;
-    background: rgb(0,0,0,0.1);
-    color: red;
-}
-/* @media scream and(min-width: 480px){
-    .caja{
-        width: 50%;
-    }
-} */
