@@ -76,7 +76,7 @@ input[name="slider-select-element"] {
 
 #slider-arrows {
     margin: -10% auto 0 auto;
-    width: 80%;
+    width: 88%;
 }
 
 #slider-box {
@@ -89,7 +89,7 @@ input[name="slider-select-element"] {
     margin: 0 auto;
     overflow: hidden;
     text-align: left;
-    width: 80%;
+    width: 98%;
 }
 
 .element-blue,
@@ -120,7 +120,7 @@ input[name="slider-select-element"] {
     color: white;
     background: rgb(0,0,0,0.5);
     text-align: center;
-    margin: 0px 563px;
+    margin: 0px 503px;
 }
 
 #element1:checked ~ #slider-arrows label:nth-child(2),
@@ -257,7 +257,11 @@ input[name="slider-select-element"] {
     display: block; 
     float: left;
     width: 94%;
-    border: solid;
     text-align: center;
     margin: 71px 44px;
+}
+.fin1{
+    font-size: x-large;
+    background: rgb(0,0,0,0.1);
+    color: white;
 }

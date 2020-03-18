@@ -1,9 +1,15 @@
+*{
+    background-image: url(../imagenes/f.jpg);
+    background-size: cover;
+}
 /*inicia menu */
 .menu ul{
+   
     list-style: none;
     padding: 0;
 }
 .menu li{
+    box-shadow: 10px 10px 9px 0px rgba(5, 5, 5, 0.8);
     line-height: 3rem;
     position: relative;
 }
@@ -11,13 +17,16 @@
     position: absolute;
 }
 .menu a{
-    color: rgb(0, 0, 0);
+    color: white;
     display: block;
     padding: 0 2.5em;
     text-decoration: none;
+    background: rgb(199, 43, 43,0.8);
+   
 }
 .menu a:hover{
-    background: rgba(0,0,0,0.5);
+    color: rgb(255, 255, 255);
+    background: rgba(53, 52, 52, 0.397);
     transition: .4s;
 }
 .menu li ul{
@@ -27,7 +36,7 @@
     display: block;
 } 
 .menu  > ul{
-    background: rgba(211, 211, 211, 0.986);
+    background: rgba(211, 211, 211, -0.014);
     display: table;
     width: 100%;
 }
@@ -52,43 +61,65 @@
 }
 /*fin de menu*/
 
+ 
 /*inicia cajas*/
+.contenedor{
+    color: white;
+     background: rgb(0,0,0,0.1); 
+    float: left;
+    margin: 46px 20px;
+} 
 .caja{
     float: left;
-    margin: 20px;
+    margin: 18px;
     padding: 10px;
     display: block;
-    background: rgb(0,0,0,0.2);
-    box-shadow: 10px 12px 11px rgb(16, 4, 0,0.6);
+    background: rgba(3, 3, 3, 0.6);
+    /* box-shadow: 10px 10px 40px 5px rgba(255, 0, 0, 0.9); */
 }
 .prenda{
+    background: rgba(170, 24, 170, -1.1);
     display: block;
     padding: 0px;
-    margin: 12px 80px;
+    margin: 10px 64px;
     position: absolute;
 }
 .precio{
     display: block;  
     padding: 28px;
     margin: 20px 86px;
+    background: rgba(212, 26, 188, -1.1);
+    color:white;
 }
+
 .adquirir{
     display: block;
     padding: 5px;
     margin: 6px 118px;
-    border: solid;
-    background: blue;
-    color: white;
+    border-radius: 20px;
+    background: rgba(255, 0, 0,0.5);
+    color: rgb(255, 255, 255);
+}
+.precio:hover{
+    color: black;
 }
 .caja:hover{
-    color: salmon;
-    background-color: red;
-}
+   color:rgb(255, 255, 255);
+     background-color: rgba(80, 28, 148, -1.1);
+    /* width: 300px ; */
+    box-shadow: 20px 20px 60px 20px rgb(255, 2, 2);
+     border-radius: 0px 140px ;  
+} 
+
 
 .img{
     width: 100%;
-    border-radius: 29px;
+    border-radius: 0px 160px;
     
+}
+.img:hover{
+    width: 100%;
+   
 }
 /* .img1{
     position: absolute;
@@ -98,11 +129,18 @@
     transform: translateY();
 } */
 .fin{
+    /* background: rgb(0,0,0,-1.1); */
     text-decoration: none;
     display: block; 
     float: left;
     width: 94%;
-    border: solid;
+    /* border: solid; */
     text-align: center;
     margin: 71px 44px;
+}
+.fin1{
+    color: white;
+    font-size: x-large;
+    background: rgb(0,0,0,0.1);
+    
 }
